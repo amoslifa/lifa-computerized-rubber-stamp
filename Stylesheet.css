@@ -1,0 +1,115 @@
+ body {
+color : blue;
+background-color : orange;
+font-size : 25px;
+border-color :green;
+border-width :2px;
+border-style :solid ;
+margin : 0;
+h1{
+background-color : blue;
+
+}
+h1, h2{
+color : white;
+font-size : 32;
+text-align : center;
+}
+
+
+}
+p1{
+color : green;
+font-size : 150%;
+font-family : verdana;
+font-style : italic;
+
+}
+
+p2{
+ color: purple;
+font-family : verdana;
+font-size : 1,2em;
+font-type : bold;
+}
+h2, h1{
+text-align: left;
+
+
+}
+p.para3{
+	font-family  : verdana;
+	font-size : 18px;
+	background-color : grey;
+	line-height : 20px;
+	padding :20px;
+	border-color :black;
+	border-width :thick;
+	border-style :ridge;
+	margin : 0;
+	border-radius : 30px;
+
+}
+p.para4{
+	font-family  : verdana;
+	font-size : 18px;
+	background-color : black;
+	line-height : 20px;
+	padding :20px;
+	border-color :purple;
+	border-width :2px;
+	border-style :solid ;
+	
+	border-radius : 30px;
+         border-left-color: red;
+
+
+
+
+}
+.image{
+display : block;
+margin-left: auto;
+margin-right : auto;
+padding : 3px;
+background-color : silver;
+border-radius : 30px;
+border-bottom-style : ridge;
+border-top-style : ridge;
+border-bottom-style: ridge;
+border-left-color: red;
+
+
+
+
+
+}
+.amos{
+background-color : yellow;
+float : left;
+padding : 3px;
+background-color : silver;
+border-radius : 30px;
+border-bottom-style : ridge;
+border-top-style : ridge;
+border-bottom-style: ridge;
+border-left-color: red;
+
+}
+
+p.p0{
+	color : black;
+}
+
+a : link{
+color : blue;
+}
+a:visited{
+color : grey;
+}
+a:hover{
+color : green;
+}
+a : acive{
+	color : red;
+}

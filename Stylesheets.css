@@ -1,0 +1,74 @@
+body{
+margin :0;
+
+background-color : orange;
+font-family : verdana;
+h1{
+color : white;
+background-color : blue;
+font-family : arial black;
+font-size : 32;
+text-align : center;
+
+}
+
+
+h2{
+color : white;
+font-family : arial black;
+font-size : 24;
+text-align : center;
+
+}
+p.p2{
+color : blue;
+font-size : 18;
+
+
+}
+p.p1
+{
+color : blue;
+font-size : 18;
+
+
+}
+.amos{
+display : block;
+margin-right: auto;
+padding : 3px;
+background-color : silver;
+border-radius : 30px;
+border-bottom-style : ridge;
+border-top-style : ridge;
+border-bottom-style: ridge;
+border-left-color: red;
+
+
+
+}
+.image{
+display : block;
+margin-right: auto;
+margin-left: auto;
+padding : 3px;
+background-color : silver;
+border-radius : 30px;
+border-bottom-style : ridge;
+border-top-style : ridge;
+border-bottom-style: ridge;
+border-left-color: red;
+
+
+
+}
+p.a{
+color : green;
+text-decoration : underline;
+text-align : center;
+}
+
+
+
+
+
