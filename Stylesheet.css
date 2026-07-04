@@ -8,6 +8,13 @@ border-style :solid ;
 margin : 0;
 h1{
 background-color : blue;
+padding : 2px;
+		border-radius : 300px;
+		border-color :black;
+	 	border-width :thick;
+		border-style :ridge;
+		margin : 0;
+
 
 }
 h1, h2{
@@ -105,11 +112,48 @@ a : link{
 color : blue;
 }
 a:visited{
-color : grey;
+color : yellow;
 }
 a:hover{
 color : green;
 }
 a : acive{
 	color : red;
+
+	 }
+.button{
+ background-color :black;
+padding : 10px;
+box-sizing :border-box ;
+height: 20px;
+border-radius : 10 px;
+border : black 2px solid;
+
+
+
+}
+
+a{
+
+padding : 20px;
+border-radius :5px;
+border : black 2px ridge;
+background-color : black;
+border-radius : 30%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 }
