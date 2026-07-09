@@ -14,7 +14,7 @@ padding : 2px;
 	 	border-width :thick;
 		border-style :ridge;
 		margin : 0;
-		text-shadow : 3px 3px silver;
+		text-shadow : 1px 1px silver;
 					
 }
 h1, h2{
@@ -41,7 +41,7 @@ border-bottom-style: ridge;
 line-height : 50px;
  margin : 12px;
 text-decoration: none;
-text-shadow : 3px 3px white;
+text-shadow : 1px 1px white;
 }
 
 .p2, ne, na{
