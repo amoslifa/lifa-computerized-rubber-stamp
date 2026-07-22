@@ -257,7 +257,9 @@ border : #9c9f84 2px solid;
 	
 }
 #navbar ul li {
-	display: inline;		
+	display: inline;	
+	position: relative;
+	margin : 0 13px;
 }
 #navbar ul li a:hover {
 	color : blue;
