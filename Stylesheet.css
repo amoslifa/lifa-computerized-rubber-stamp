@@ -41,14 +41,14 @@ font-family : verdana;
 //font-style : italic;
 padding : 12px;
 border : pink 1 px solid;
-background-color : silver;
+background-color : #0D47A1;
 border-bottom-style : ridge;
 border-top-style : ridge;
 border-bottom-style: ridge;
 line-height : 50px;
  margin : 12px;
 text-decoration: none;
-text-shadow : 1px 1px white;
+text-shadow : 1px 1px black;
 }
 
 .p2, ne, na{
@@ -251,7 +251,7 @@ border : #9c9f84 2px solid;
 	text-align: center;
 	height  : 80px;
 	margin : 10px;
-	background-color :#0D47A1;
+	background-color :#f4f6f9;
 	border-radius : 30px;
 	
 	
