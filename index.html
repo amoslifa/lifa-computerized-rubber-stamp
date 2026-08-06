@@ -1,0 +1,153 @@
+<!doctype>
+<html><head> <title>LIFA COMPUTERIZED RUBBER STAMP  </title> 
+<link rel="Stylesheet"  type="text/css"  href="Stylesheet.css" ></head>
+
+<body>   <h1>  LIFA COMPUTERIZED RUBBER STAMP  </h1><br>
+<div id="navbar"> 
+		<ul>
+    <li><a href="">Home</a></li>
+    <li><a href="second.html">Shop Stamps</a></li>
+		<li class="dropdown">
+                    <a href="#">Categories ▼</a>
+                    <ul class="dropdown-content">
+                        <li><a href="selfinkig.html">Self Inking Stamps</a></li>
+                        <li><a href="date.html">Date Stamps</a></li>
+                        <li><a href="rubber.html">Rubber Stamps</a></li>
+                        <li><a href="#">Seals & Numbering</a></li>
+			 <li><a href="#">Common Seals</a></li>
+			 <li><a href="logo.html">Logo Stamps</a></li>
+			<li><a href="paid.html">Paid & Received Stamps</a></li>
+
+                    </ul>
+                </li>
+
+    <li class="dropdown">
+        <a href="#">Contact Us</a>
+
+        <ul class="dropdown-content">
+            <li><a href="https://wa.me/265999481700">WhatsApp</a></li>
+            <li><a href="https://facebook.com/LifaComputerizedRubberStamps">Facebook</a></li>
+            <li><a href="https://x.com/@Amoslifa27057">X</a></li>
+		<li><a href="mailto:lifaamos59@gmail.com">Email Us</a></li>
+        </ul>
+
+  
+</ul>
+
+
+
+
+
+
+</div>
+		<h2 style="text-align: left; font-size: 24px;">Search for Stamps</h2>
+
+<input type="text" id="searchBox" placeholder="Search for stamp eg. date stamp"
+  style="width: 350px; padding: 12px 15px; font-size: 16px; border: 2px solid #333; border-radius: 6px; outline: none;">
+<button onclick="searchProduct()" style="background-color: blue; color: white; padding: 16px 24px; cursor: pointer;">Search</button>
+
+<p id="result"></p>
+<div id="searchImage" class="image-box" style="margin-top: 15px;"></div>
+
+<script>
+// Product list with matching images
+var products = {
+    "date stamp": "date.jpg",
+    "rubber stamp": "rubber.jpg",
+    "common seal": "round.jpg",
+    "self inking stamp": "trodat.jpg",
+    "numbering machine": "stamp.jpg",
+    "dry seal": "round.jpg",
+    "paid stamp": "paid.jpg",
+    "received stamp": "paid.jpg",
+    "logo stamp": "stamp.jpg",
+    "collected stamp": "d.jpg",
+    "checked stamp": "d.jpg",
+    "common seal stamp": "round.jpg"
+};
+
+function searchProduct() {
+    let searchItem = document.getElementById("searchBox").value.trim().toLowerCase();
+    let resultEl = document.getElementById("result");
+    let imageEl = document.getElementById("searchImage");
+
+    // Clear previous image
+    imageEl.innerHTML = "";
+
+    if (searchItem === "") {
+        resultEl.innerHTML = "Please type a stamp name to search.";
+        return;
+    }
+
+    // Find matching product (exact or partial match)
+    let foundKey = null;
+    for (let key in products) {
+        if (key === searchItem || key.includes(searchItem) || searchItem.includes(key.replace(" stamp", ""))) {
+            foundKey = key;
+            break;
+        }
+    }
+
+    if (foundKey) {
+        let imgSrc = products[foundKey];
+        resultEl.innerHTML = "<b>" + foundKey.toUpperCase() + "</b> is available!";
+        imageEl.innerHTML = '<img src="' + imgSrc + '" width="300" height="300" class="product" alt="' + foundKey + '">';
+    } else {
+        resultEl.innerHTML = searchItem + " is not available, but you can find help by Contact Us or DM us on WhatsApp.";
+    }
+}
+
+// Also search when user presses Enter
+document.getElementById("searchBox").addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+        searchProduct();
+    }
+});
+</script>
+
+
+		<h2>Welcome to the Home of Quality Stamps</h2>
+
+<div class="p1"> <b>We make high quality stamps at affordable prices. Try us today and you will never regret.</b>
+<br><b>CELL: +265 999 481 700 </b> <br>
+<b>We are located in Lilongwe at Lizulu Market along Chirima Highway Behind Olympic Mall  </b>
+
+<br>
+<br>
+	
+<b>Products We make : Rubber stamps, Common Seals, Dry seals, Date Stamps, Self Inking stamps, Numbering Machines, Batch Numbers perfect for offices, schools, clinics, and businesses.
+        Available in various sizes. Custom text and company name can be added.
+</b> <br>
+	</div>
+
+<br>
+
+<h2>  Our Popular Stamps  </h2>
+
+  <img  class="amos" src="image.jpeg"   height=" 100"   width="100">
+	<br><div>
+
+<p  class="na"><a href="https://wa.me/265999481700?text=Hello%20from%20your%20website"  target="_blank">   Chat with us on whatsapp  </a>
+</p></div>
+<br>
+<div class="image-box"><p><img src="round.jpg" width="400"  height="400"  class="product"><img src="stamp.jpg" width="400"  height="400" class="product"><img src="rubber.jpg"  width="400"  height="400" class="product"><img src="trodat.jpg"  width="400"  height="400"  class="product"><img src="date.jpg"  width="400"  height="400"   class="product"><img src="d.jpg"  width="400"  height="400"   class="product"></p>
+</div>
+
+
+<br>
+<p style="text-align:   center"  class="te">    <a  href="second.html">    BROWSE ALL STAMPS   </a></p>
+<br>
+<br>
+ <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2026 LIFA COMPUTERIZED RUBBER STAMP. All Rights Reserved.</p>
+        <p>Lilongwe, Malawi | +265 999 481 700 | Fast & Reliable Service</p>
+    </footer>
+
+</body>
+
+
+
+
+</html>
+ 
